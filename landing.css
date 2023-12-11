@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Kalnia:wght@700&family=Playfair+Display:ital,wght@1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #F4A460;
+}
+.navbar{
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    /* background-color: #D2691E; */
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #FF4500;
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: bolder;
+    padding-left: 25px;
+    margin-top: 10px;
+    float:left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 115px;
+    margin-top: 15px;
+    margin-right: -50px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #FF4500;
+}
+.search{
+    float: left;
+    margin-left: 70px;
+    width: 370px;
+}
+.sea{
+    margin-left: 100px;
+    margin-top: 7.5px;
+    width: 175px;
+    height: 29px;
+    font-family: 'Times New Roman', Times, serif;
+    background:transparent;
+    border: 1px solid #FF4500;
+    border-right: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    padding: 10px;
+    float: left;
+}
+button:hover{
+    color: black;
+}
+.btn{
+   margin-top: 7px; 
+   width: 90px;
+   height: 30px;
+   background:  #FF4500;
+   background:2px solid rgb(247, 247, 247);
+   font-size: 17px;
+   border-bottom-right-radius: 3px;
+   color: aliceblue;
+   border: none;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
+.sea:focus{
+    outline: none;
+}
+.main-cont{
+    height: auto;
+    width: 1200px;
+    color: white;
+    position: relative;
+    margin: auto;
+
+}
+.main-cont .par{
+    padding-left: 25px;
+    padding-bottom:20px ;
+    letter-spacing: 1.5px;
+    font-family: 'Nova Square', sans-serif;
+    line-height: 30px;
+}
+.main-cont h1{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10%;
+    font-size: 50px;
+    padding-left:20px;
+    letter-spacing: 1px;
+}
+.main-cont .cn{
+    width: 160px;
+    height: 40px;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 18px;
+    background: #FF4500;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.main-cont .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+   background-color: rgb(240, 238, 238);
+}
+.main-cont span{
+    color: #FF4500;
+    font-size: 65px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 800px;
+    position: absolute;
+    top: -120px;
+    left: 570px;
+    cursor: pointer;
+}
